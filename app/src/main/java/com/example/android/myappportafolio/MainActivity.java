@@ -39,39 +39,4 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
-
-//    public static class PlaceholderFragment extends Fragment {
-//
-//        public PlaceholderFragment() {
-//        }
-//
-//        public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedBundleState) {
-//            View rootView = inflater.inflate(R.layout.fragment_main, container, false);
-//
-//            String[] appNames = {
-//                    "Popular Movies",
-//                    "Stock Hawk",
-//                    "Build it Bigger",
-//                    "Make your App Material",
-//                    "Go Ubiquitous",
-//                    "Capstone"
-//            };
-//
-//            ArrayList<String> appList = new ArrayList<String>(Arrays.asList(appNames));
-//
-//            ArrayAdapter<String> buttonList = new ArrayAdapter<String>(
-//                    getActivity(),
-//                    R.layout.list_item_name,
-//                    R.id.list_item_app_textview,
-//                    appList
-//            );
-//
-//            ListView listView = (ListView) rootView.findViewById(R.id.listview_app_name);
-//            listView.setAdapter(buttonList);
-//
-//
-//            return rootView;
-//        }
-//    }
 }
